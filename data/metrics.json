@@ -1,0 +1,40 @@
+{
+  "llm": "mock",
+  "embeddings": "hash-mock",
+  "extraction": {
+    "method": "mock-regex",
+    "fiscal_year": 2025,
+    "accuracy": 0.75,
+    "items": [
+      {
+        "item": "revenue",
+        "predicted": 871905000,
+        "truth": 871905000,
+        "correct": true
+      },
+      {
+        "item": "gross_profit",
+        "predicted": 470579000,
+        "truth": 470579000,
+        "correct": true
+      },
+      {
+        "item": "operating_income",
+        "predicted": -5336000,
+        "truth": -5336000,
+        "correct": true
+      },
+      {
+        "item": "net_income",
+        "predicted": null,
+        "truth": 1641000,
+        "correct": false
+      }
+    ]
+  },
+  "guardrail": {
+    "hallucinated_number_flagged": true,
+    "grounded_answer_passes": true,
+    "guardrail_working": true
+  }
+}

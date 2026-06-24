@@ -5,7 +5,8 @@ __pycache__/
 venv/
 .cache/
 .streamlit/
-# Generated, reproducible, or large — never commit
-data/*
-!data/.gitkeep
 .DS_Store
+
+# Ignore only regenerable binaries and logs; keep the real SEC data visible
+data/*.npy
+data/*.log

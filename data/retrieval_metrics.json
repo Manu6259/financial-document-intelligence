@@ -1,0 +1,20 @@
+{
+  "vector": {
+    "recall@k": 0.5,
+    "mrr": 0.317,
+    "recall_table": 0.5,
+    "recall_prose": 0.5
+  },
+  "bm25": {
+    "recall@k": 0.8,
+    "mrr": 0.515,
+    "recall_table": 0.833,
+    "recall_prose": 0.75
+  },
+  "hybrid": {
+    "recall@k": 0.6,
+    "mrr": 0.6,
+    "recall_table": 0.667,
+    "recall_prose": 0.5
+  }
+}
