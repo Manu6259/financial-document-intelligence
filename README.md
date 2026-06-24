@@ -109,7 +109,7 @@ SEC EDGAR ─┬─ 10-K HTML  ─► parse ─► sections + citable chunks ─
 
 ---
 
-## Skills this demonstrates (and how they scale)
+## Capabilities and how they scale
 
 - **RAG pipelines** — grounded Q&A over a real filing (retrieval where it belongs:
   long documents). Scales via hybrid lexical+vector retrieval and reranking
